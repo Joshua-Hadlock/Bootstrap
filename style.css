@@ -4,10 +4,16 @@
     background-size: cover;
 }
 
+
+/* bootstraps font sizes are very small, so I had to override it to make the logo in the middle of the screen look good
+normally you'd download the bootstrap files and change them from there, but I didn't download the files so 
+I can't change them. */
 .fs-1 {
     font-size: 100px !important;
 }
 
-/* div {
-    border: black 1px solid;
-} */
+@media (max-width: 550px) {
+    .fs-1 {
+        font-size: 70px !important;
+    }
+}
