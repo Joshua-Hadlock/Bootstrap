@@ -1,0 +1,11 @@
+.myPicture {
+    background-image: url('images/computer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* div {
+    border: black 1px solid;
+} */
